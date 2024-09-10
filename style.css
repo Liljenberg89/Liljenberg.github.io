@@ -1,0 +1,499 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px;
+  padding: 3px;
+}
+button:hover {
+  background-color: rgb(218, 218, 218);
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0%;
+}
+ul {
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.header-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  width: 50%;
+  margin: 0%;
+  color: white;
+  font-size: 30px;
+}
+
+header {
+  height: 15vh;
+  width: 100%;
+  background-color: #224d5a;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.white-link {
+  color: white;
+}
+nav {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.over-bar {
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #224d5a;
+  background-color: #f0f0f0;
+}
+
+.under-bar {
+  width: 100%;
+  height: 5vh;
+  background-color: #224d5a;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.latest-post {
+  margin-left: 8%;
+}
+.main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.blog-container {
+  width: 85%;
+  height: 100%;
+  display: flex;
+}
+.side-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+}
+.menu-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  padding: 0px 0px 0px 30px;
+}
+.menu-postLink {
+  color: black;
+}
+.menu-tags {
+  list-style: none;
+  font-size: x-small;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  padding: 0px 0px 10px 30px;
+}
+
+.menu-title {
+  padding: 20px 0px 10px 20px;
+}
+.menu-titleTags {
+  padding: 20px 0px 10px 20px;
+}
+input {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0px 20px 20px 20px;
+}
+
+.post-container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid black 2px;
+  padding-bottom: 10px;
+}
+.post-header {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid black 1px;
+  margin-bottom: 10px;
+}
+.post-image {
+  width: 40%;
+  height: 200px;
+}
+
+.post-body {
+  width: 100%;
+  display: flex;
+}
+
+.post-text {
+  margin: 0;
+  padding-left: 10px;
+  overflow: auto;
+}
+
+.post-textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  height: 200px;
+}
+
+.post-btn {
+  width: 120px;
+  margin-left: 10px;
+}
+.olderPost-container {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.olderPosts {
+  width: 85%;
+  height: 15vh;
+  border-bottom: solid black 2px;
+  display: flex;
+  align-items: center;
+}
+.olderPost-button {
+  margin-left: 5%;
+  padding: 10px 20px 10px 20px;
+}
+.bottom-container {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+  height: 25vh;
+  background-color: gray;
+  border: solid black 1px;
+}
+.footer-container {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-links {
+  width: 80%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: 10px;
+}
+.footer-link {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa-up-long {
+  font-size: 20px;
+}
+.footer-bar {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(60, 58, 58);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: -2px;
+}
+
+/* Detta är css för individuella post  */
+.post_post {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.post_post-header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+  justify-content: space-between;
+  border-bottom: solid black 1px;
+  margin-bottom: 10px;
+}
+.post_post-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  width: 50%;
+  margin: 0%;
+  color: black;
+  justify-self: end;
+}
+.post_post-date {
+  justify-self: end;
+}
+.align-self {
+  align-self: center;
+}
+.post_info-container {
+  margin-top: 30px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.post_infoTitle {
+  width: 100%;
+  border-bottom: black solid 2px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.post_post-image {
+  float: left;
+  width: 50%;
+  padding: 0 20px 20px 0;
+}
+.post_post-text {
+  text-align: justify;
+  margin: 0px;
+}
+.post_infoBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 15px 0;
+  gap: 10px;
+}
+.post_author-container {
+  width: 100%;
+}
+.post_author-header {
+  padding: 15px 0 15px 0;
+  border: solid black 2px;
+  background-color: #224d5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.x {
+  justify-self: center;
+  color: white;
+}
+.y {
+  border: solid white 1px;
+  width: 0;
+  height: 50%;
+  justify-self: center;
+}
+.post_author-headerBox {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 50% auto auto auto auto auto;
+  align-items: center;
+}
+.post_author-body {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  border: solid black 2px;
+  border-width: 0px 2px 2px 2px;
+}
+.post_author-text {
+  width: 90%;
+}
+.post_author-footer {
+  width: 100%;
+}
+.post_author-icons {
+  color: white;
+  justify-self: center;
+  font-size: 40px;
+}
+.post_author-title {
+  color: white;
+  display: flex;
+  gap: 5px;
+  align-items: start;
+}
+.post_author-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 0 3% 0;
+}
+
+/* Här tar css för individuella post slut */
+
+@media (max-width: 900px) {
+  .blog-container {
+    flex-direction: column;
+    width: 80%;
+  }
+  .post-container {
+    width: 100%;
+  }
+  .side-container {
+    width: 100%;
+  }
+  .menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .post {
+    width: 100%;
+  }
+  .menu-title {
+    grid-row: 1;
+  }
+  .menu-links {
+    grid-row: 2;
+  }
+  .post_post {
+    width: 100%;
+  }
+  .post_info-container {
+    width: 100%;
+  }
+  .post_author-headerBox {
+    grid-template-columns: auto auto 2px auto 2px auto;
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 550px) {
+  .header-icons {
+    font-size: 25px;
+  }
+  .blog-container {
+    width: 85%;
+  }
+  .post {
+    width: 100%;
+  }
+  .post-body {
+    flex-direction: column;
+    width: 100%;
+  }
+  .post-textBox {
+    width: 100%;
+  }
+  .post-header {
+    width: 100%;
+  }
+  .post-text {
+    width: 100%;
+    overflow: auto;
+
+    padding: 0;
+  }
+  .post-image {
+    width: 100%;
+  }
+  .post-btn {
+    align-self: flex-start;
+    margin: 0;
+  }
+  p {
+    padding: 0;
+  }
+  .footer-links {
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-between;
+  }
+  .post-tags {
+    grid-template-columns: auto auto auto;
+    padding: 0px 0px 0px 10px;
+  }
+
+  .menu-title {
+    padding-left: 25px;
+  }
+  .menu-titleTags {
+    padding-left: 5px;
+  }
+  .menu-links {
+    padding: 0px 0px 0px 25px;
+  }
+  .menu-tags {
+    margin-left: 5px;
+    gap: 0;
+    grid-template-columns: 33% 33% 33%;
+    padding: 0;
+  }
+  .bottom-text {
+    font-size: 75%;
+  }
+  .post_post-header {
+    grid-template-columns: auto auto auto;
+  }
+  .post_post-image {
+    width: 100%;
+  }
+  .post_author-title {
+    width: 95%;
+    justify-content: center;
+  }
+}
