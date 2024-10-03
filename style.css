@@ -260,12 +260,13 @@ footer {
 }
 .footer-bar {
   height: 50px;
-  width: 100%;
   background-color: rgb(60, 58, 58);
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  margin-left: -1px;
+  margin-right: -1px;
 }
 
 /* Detta är css för individuella post  */
